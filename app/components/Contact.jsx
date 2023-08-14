@@ -11,7 +11,7 @@ const Contact = () => {
       </h2>
       <form
         method="POST"
-        action="https://formspree.io/f/mgejanpa"
+        action="https://formspree.io/f/xzblekjo"
         className="w-full mx-auto max-w-4xl"
       >
         <div className="w-full flex flex-col gap-4 md:flex-row md:justify-between">
