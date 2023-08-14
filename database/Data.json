@@ -74,48 +74,41 @@
     },
     {
         "id":10,
-        "name":"Samea Rahman",
-        "image":"Samea.png",
-        "position":"Development Director (Senior)",
-        "institution":"Adamjee Cantonment College"
-    },
-    {
-        "id":11,
         "name":"Nabilah Tasneem Tisha",
         "image":"Tisha.png",
         "position":"Development Director (Junior)",
         "institution":"Adamjee Cantonment College"
     },
     {
-        "id":12,
+        "id":11,
         "name":"Tahsin Hossain Jelon",
         "image":"Jelon.png",
         "position":"Chief of Human Research (Senior)",
         "institution":"Adamjee Cantonment College"
     },
     {
-        "id":13,
+        "id":12,
         "name":"Sabbir Ahmed",
         "image":"Sabbir.png",
         "position":"Chief of Human Research (Junior)",
         "institution":"Adamjee Cantonment College"
     },
     {
-        "id":14,
+        "id":13,
         "name":"Azmain Adib",
         "image":"Adib.png",
         "position":"Programme Management Director",
         "institution":"Adamjee Cantonment College"
     },
     {
-        "id":15,
+        "id":14,
         "name":"Refat Islam Redoy",
         "image":"Refat.png",
         "position":"Volunteer Management Director (Male)",
         "institution":"Adamjee Cantonment College"
     },
     {
-        "id":16,
+        "id":15,
         "name":"Ummul Banin",
         "image":"Banin.png",
         "position":"Volunteer Management Director (Female)",

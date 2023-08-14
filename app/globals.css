@@ -13,7 +13,7 @@
 .slider .slider-tracker{
     animation: scroll 40s linear infinite;  
     display: flex;
-    width: calc(300px * 17);
+    width: calc(300px * 16);
     
     padding: 20px 0px;
     gap: 15px;
@@ -29,6 +29,6 @@
         transform: translateX(0);
     }
     100%{
-        transform: translateX(calc(300px * -17));
+        transform: translateX(calc(300px * -16));
     }
 }
