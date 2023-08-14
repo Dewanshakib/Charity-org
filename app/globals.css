@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slider{
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    max-width: 1270px;
+}
+.slider .slider-tracker{
+    animation: scroll 40s linear infinite;  
+    display: flex;
+    width: calc(300px * 17);
+    
+    padding: 20px 0px;
+    gap: 15px;
+}
+.slider .slide{
+    height: 410px;
+    width: 300px;
+    margin: 0 25px;
+    
+}
+@keyframes scroll{
+    100%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(300px * -17));
+    }
+}
