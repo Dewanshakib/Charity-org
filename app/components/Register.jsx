@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+import {motion as m } from "framer-motion"
 
 
 
@@ -61,17 +62,17 @@ const Register = () => {
 
   return (
     <div className="w-full h-auto bg-gradient-to-r from-rose-100 to-teal-100  grid grid-rows-1 md:grid-cols-2">
-      <div className="w-full h-auto md:hidden">
+      <m.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1}} className="w-full h-auto md:hidden">
         <Image
           width={2000}
           height={2000}
-          className="w-full h-full opacity-0 duration-[2s]"
+          className="w-full h-full"
           src={"/mobile-m.png"}
           alt="Register background mobile"
-          onLoadingComplete={(image) => image.classList.remove("opacity-0")}
+
         />
-      </div>
-      <div className="w-full md:h-screen ">
+      </m.div>
+      <m.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1}} className="w-full md:h-screen ">
         <Image
           width={2000}
           height={2000}
@@ -80,7 +81,7 @@ const Register = () => {
           alt="Register background mobile"
           onLoadingComplete={(image) => image.classList.remove("opacity-0")}
         />
-      </div>
+      </m.div>
       <div className="w-full px-5 pb-4 md:pt-10 md:px-8">
         <h2 className="text-2xl font-semibold bg-gradient-to-r from-primary to-danger bg-clip-text text-transparent from-orange-700 to-cyan-400 md:text-3xl xl:text-4xl text-center mt-6">
           রেজিস্ট্রেশন ফর্ম

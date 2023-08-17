@@ -46,69 +46,62 @@
     },
     {
         "id":6,
-        "name":"Ayaz Abdullah ",
-        "image":"Ayaz.png",
-        "position":"Chief of Information and Technology (Junior)",
-        "institution":"Adamjee Cantonment College"
-    },
-    {
-        "id":7,
         "name":"Iftekharul Islam Nabil",
         "image":"Nabil.png",
         "position":"Chief of Advertising",
         "institution":"Adamjee Cantonment College"
     },
     {
-        "id":8,
+        "id":7,
         "name":"Afia Farjana Urmy",
         "image":"Urmy.png",
         "position":"Chief Financial Officer",
         "institution":"Adamjee Cantonment College"
     },
     {
-        "id":9,
+        "id":8,
         "name":"Sanzida Afrose",
         "image":"Sanzida.png",
         "position":"Assistant Director", 
         "institution":"Adamjee Cantonment College"
     },
     {
-        "id":10,
+        "id":9,
         "name":"Nabilah Tasneem Tisha",
         "image":"Tisha.png",
         "position":"Development Director (Junior)",
         "institution":"Adamjee Cantonment College"
     },
     {
-        "id":11,
+        "id":10,
         "name":"Tahsin Hossain Jelon",
         "image":"Jelon.png",
         "position":"Chief of Human Research (Senior)",
         "institution":"Adamjee Cantonment College"
     },
     {
-        "id":12,
+        "id":11,
         "name":"Sabbir Ahmed",
         "image":"Sabbir.png",
         "position":"Chief of Human Research (Junior)",
         "institution":"Adamjee Cantonment College"
     },
     {
-        "id":13,
+        "id":12,
         "name":"Azmain Adib",
         "image":"Adib.png",
         "position":"Programme Management Director",
         "institution":"Adamjee Cantonment College"
     },
     {
-        "id":14,
+        "id":13,
         "name":"Refat Islam Redoy",
         "image":"Refat.png",
         "position":"Volunteer Management Director (Male)",
         "institution":"Adamjee Cantonment College"
     },
     {
-        "id":15,
+        "id":14,
         "name":"Ummul Banin",
         "image":"Banin.png",
         "position":"Volunteer Management Director (Female)",

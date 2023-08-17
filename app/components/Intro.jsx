@@ -1,24 +1,25 @@
 "use client"
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import {motion as m} from "framer-motion"
+
+
 
 const Intro = () => {
   return (
     <div>
       <div className="w-full duration-500 transform transition-all h-auto items-center gap-3 md:gap-6 flex flex-col justify-between md:flex-row-reverse md:items-center  mb-9">
-        <div className=" w-full">
+        <m.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1}} className=" w-full">
           <Image
-            className="rounded-xl opacity-0 duration-[2s]"
+            className="rounded-xl"
             src={"/intro.png"}
             alt="Two heart shape earth in between two hands"
             width={1200}
             height={1200}
             quality={100}
             layout="responsive"
-            onLoadingComplete={(image) => image.classList.remove("opacity-0")}
           />
-        </div>
+        </m.div>
         <div className="w-full p-3 lg:px-6 3xl:pt-24 lg:pt-7 xl:pt-12 2xl:pt-16 2xl:px-8 mb-auto 3xl:px-16">
           <p className="bg-gradient-to-tl bg-clip-text text-transparent from-purple-500 to-blue-500 mb-3 text-[24px] lg:text-[28px] sm:text-[27px] md:text-[28px] font-semibold xl:text-[34px]  2xl:text-[40px] 3xl:text-[50px]">
             স্বস্তির ছায়া
