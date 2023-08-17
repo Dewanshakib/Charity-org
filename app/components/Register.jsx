@@ -60,23 +60,25 @@ const Register = () => {
   const notify = () => toast("অভিনন্দন এখন আপনি স্বস্তির ছায়ার একজন সদস্য");
 
   return (
-    <div className="w-full bg-gradient-to-r from-rose-100 to-teal-100 h-screen grid grid-rows-1 md:grid-cols-2">
+    <div className="w-full h-auto bg-gradient-to-r from-rose-100 to-teal-100  grid grid-rows-1 md:grid-cols-2">
       <div className="w-full h-auto md:hidden">
         <Image
           width={2000}
           height={2000}
-          className="w-full h-full "
+          className="w-full h-full opacity-0 duration-[2s]"
           src={"/mobile-m.png"}
           alt="Register background mobile"
+          onLoadingComplete={(image) => image.classList.remove("opacity-0")}
         />
       </div>
-      <div className="w-full md:h-screen">
+      <div className="w-full md:h-screen ">
         <Image
           width={2000}
           height={2000}
-          className="w-full h-full hidden md:block"
+          className="w-full h-full hidden md:block opacity-0 duration-[2s]"
           src={"/register-d.png"}
           alt="Register background mobile"
+          onLoadingComplete={(image) => image.classList.remove("opacity-0")}
         />
       </div>
       <div className="w-full px-5 pb-4 md:pt-10 md:px-8">

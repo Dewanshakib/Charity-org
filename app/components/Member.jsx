@@ -28,11 +28,12 @@ const Member = () => {
           >
             <div className="px-4 py-2">
               <Image
-                className="rounded-full pointer-events-none  w-full ring-2 ring-blue-500 ring-offset-2"
+                className="rounded-full pointer-events-none  w-full ring-2 ring-blue-500 ring-offset-2 opacity-0 duration-[2s]"
                 alt="member image"
                 src={`/${member.image}`}
                 width={2000}
                 height={2000}
+                onLoadingComplete={(image) => image.classList.remove("opacity-0")}
               />
             </div>
             <div className="w-full text-center h-[116px] py-2">

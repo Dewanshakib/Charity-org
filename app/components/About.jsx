@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import React from "react";
 
@@ -12,13 +13,14 @@ const About = () => {
       <div className="w-full h-auto  md:py-6 flex flex-col items-start justify-between md:flex-row">
         <div className="w-full">
           <Image
-            className="w-full rounded-lg"
+            className="w-full rounded-lg opacity-0 duration-[2s]"
             quality={100}
             layout="responsive"
             alt="showing two heart shaped earth in between two hands"
             src={"/about.png"}
             width={2000}
             height={2000}
+            onLoadingComplete={(image) => image.classList.remove("opacity-0")}
           />
         </div>
         <div className="md:ml-10 mt-6 md:mt-0 md:px-6 w-full">
